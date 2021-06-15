@@ -1,5 +1,6 @@
 package strategy.basic;
 
+import java.util.Comparator;
 import java.util.Date;
 
 public class Usuarios {
@@ -55,5 +56,27 @@ public class Usuarios {
         System.out.println("INFO> fecha nacimeinto: "+fechaNac);
         System.out.println("INFO> profesion: "+profesion);
     }
+
+    public static Comparator<Usuarios> NameORDER = new Comparator<Usuarios>() {
+        public int compare(Usuarios s1, Usuarios s2) {
+            String name1 = s1.getNombre().toUpperCase();
+            String name2 = s2.getNombre().toUpperCase();
+            return name1.compareTo(name2);
+        }};
+
+    public static Comparator<Usuarios> CiORDER = new Comparator<Usuarios>() {
+        public int compare(Usuarios s1, Usuarios s2) {
+            int ci1 = s1.getCi();
+            int ci2 = s2.getCi();
+            return ci1-ci2;
+
+        }};
+    public static Comparator<Usuarios> DateORDER = new Comparator<Usuarios>() {
+        public int compare(Usuarios s1, Usuarios s2) {
+            Date date1 = s1.getFechaNac();
+            Date date2 = s2.getFechaNac();
+            return (date1.getTime() > date2.getTime() ? 1 : -1);
+
+        }};
 
 }

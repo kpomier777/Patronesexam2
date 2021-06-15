@@ -1,7 +1,7 @@
 mediator/basic/ConcreateColleague1.java
  mediator.basic.ConcreateColleague1
-observer/basic/ConcreteObserver1.java
- observer.basic.ConcreteObserver1
+strategy/basic/Client.java
+ strategy.basic.Client
 memento/basic/Memento.java
  memento.basic.Memento
 mediator/basic/Client.java
@@ -32,20 +32,23 @@ state/basic/Apagado.java
  state.basic.Apagado
 memento/basic/CareTaker.java
  memento.basic.CareTaker
-observer/basic/ConcreteSubject.java
- observer.basic.ConcreteSubject
+strategy/basic/Usuarios.java
+ strategy.basic.Usuarios
+ strategy.basic.Usuarios$1
+ strategy.basic.Usuarios$2
+ strategy.basic.Usuarios$3
 command/basic/Invoker.java
  command.basic.Invoker
-observer/basic/ConcreteObserver2.java
- observer.basic.ConcreteObserver2
+strategy/basic/ConcreteStrategy1.java
+ strategy.basic.ConcreteStrategy1
 memento/basic/Originator.java
  memento.basic.Originator
 command/basic/ConcreteCommand2.java
  command.basic.ConcreteCommand2
-observer/basic/ISubject.java
- observer.basic.ISubject
-observer/basic/IObserver.java
- observer.basic.IObserver
+strategy/basic/IStrategyOrdenamiento.java
+ strategy.basic.IStrategyOrdenamiento
+strategy/basic/BaseDeDatos.java
+ strategy.basic.BaseDeDatos
 state/basic/Computadora.java
  state.basic.Computadora
 state/basic/Reiniciar.java
@@ -58,8 +61,8 @@ mediator/basic/ConcreateColleague2.java
  mediator.basic.ConcreateColleague2
 state/basic/Prendido.java
  state.basic.Prendido
-observer/basic/Client.java
- observer.basic.Client
+strategy/basic/ConcreteStrategy3.java
+ strategy.basic.ConcreteStrategy3
 state/basic/MemoriaRam.java
  state.basic.MemoriaRam
 chainOfResponsability/basic/HandlerManager.java
@@ -74,15 +77,19 @@ chainOfResponsability/basic/HandlerConcrete2.java
  chainOfResponsability.basic.HandlerConcrete2
 strategy/basic/ConcreteStrategy2.java
  strategy.basic.ConcreteStrategy2
-strategy/basic/ConcreteStrategy3.java
- strategy.basic.ConcreteStrategy3
-strategy/basic/Usuarios.java
- strategy.basic.Usuarios
-strategy/basic/BaseDeDatos.java
- strategy.basic.BaseDeDatos
-strategy/basic/ConcreteStrategy1.java
- strategy.basic.ConcreteStrategy1
-strategy/basic/Client.java
- strategy.basic.Client
-strategy/basic/IStrategyOrdenamiento.java
- strategy.basic.IStrategyOrdenamiento
+observer/basic/Video.java
+ observer.basic.Video
+observer/basic/Image.java
+ observer.basic.Image
+observer/basic/PaginaFacebook.java
+ observer.basic.PaginaFacebook
+observer/basic/Client.java
+ observer.basic.Client
+observer/basic/IPage.java
+ observer.basic.IPage
+observer/basic/Persona.java
+ observer.basic.Persona
+observer/basic/UsuarioNotificado.java
+ observer.basic.UsuarioNotificado
+observer/basic/IUsuario.java
+ observer.basic.IUsuario

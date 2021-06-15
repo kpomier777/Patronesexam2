@@ -27,6 +27,10 @@ public class Client {
         bd.cambiarEstrategiaOrdenamiento();
         System.out.println("TERMINO ESTRATEGIA 2");
 
+        bd.setusuarioList(userList);
+        bd.setModoOrdenamiento(new ConcreteStrategy3());
+        bd.cambiarEstrategiaOrdenamiento();
+        System.out.println("TERMINO ESTRATEGIA 3");
 
     }
 }

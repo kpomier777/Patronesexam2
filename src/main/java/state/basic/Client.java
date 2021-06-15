@@ -1,20 +1,24 @@
 package state.basic;
 
+
+
 public class Client {
-    public static void main (String [] args){
-          IState state1 = new ConcreteState1();
-          IState state2 = new ConcreteState2();
-          IState state3 = new ConcreteState3();
+    public static void main(String []args){
+        int cantidadProg=(int)(Math.random()*20+1);
+        IStateComputadora state = new Apagado();
+        Computadora computadora = new Computadora();
+        computadora.setState(state);
+        computadora.request();
 
-          Context context = new Context();
+        state = new Reiniciar(cantidadProg);
+        computadora.setState(state);
+        computadora.request();
 
-          context.setState(state1);
-          context.request();
+        state = new Prendido();
+        computadora.setState(state);
+        computadora.request();
 
-          context.setState(state2);
-          context.request();
 
-          context.setState(state3);
-          context.request();
+
     }
 }

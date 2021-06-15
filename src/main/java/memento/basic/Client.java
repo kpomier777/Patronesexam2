@@ -7,26 +7,31 @@ public class Client {
         // el originator es el creador de los mementos
         Originator originator= new Originator();
 
-        ConcreteObject concreteObject;
+        Documento concreteObject;
 
-        concreteObject= new ConcreteObject("Doc","Titulo","Estado1");
+        concreteObject= new Documento("cambio 1","Este documento ");
         originator.setState(concreteObject);
+        careTaker.addMemento(originator.createMemento());
 
-        concreteObject= new ConcreteObject("Doc","Descripcion","Estado2");
+        concreteObject= new Documento("cambio 2","se ");
         originator.setState(concreteObject);
         careTaker.addMemento(originator.createMemento());// [0]Guadamos nuestro primer estado estado
-        concreteObject= new ConcreteObject("Doc","Resumen","Estado3");
-        originator.setState(concreteObject);
 
-        concreteObject= new ConcreteObject("Doc","Conclusion","Estado4");
+        concreteObject= new Documento("cambio 3","esta modificando ");
+        originator.setState(concreteObject);
+        careTaker.addMemento(originator.createMemento());
+
+        concreteObject= new Documento("cambio 4","para examen.");
         originator.setState(concreteObject);
         careTaker.addMemento(originator.createMemento());// [1]Guadamos nuestro segundo estado estado
 
-        concreteObject= new ConcreteObject("Doc","Bibliografia","Estado5");
-        originator.setState(concreteObject);
 
-        // recuperando o restaurando algun estado (Memento)
+        originator.revertir();
+        originator.revertir();
+        originator.revertir();
 
-        originator.restoreFromMemento(careTaker.getMemento(1));
+        originator.deshacer();
+        originator.deshacer();
+        originator.deshacer();
     }
 }

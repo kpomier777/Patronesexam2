@@ -1,13 +1,17 @@
 package memento.basic;
 
 public class Memento {
-    private ConcreteObject state;
+    private Documento state;
 
-    public Memento(ConcreteObject stateSaved){
+    public Memento(Documento stateSaved){
         this.state=stateSaved;
     }
 
-    public ConcreteObject getState() {
+    public Documento getState() {
         return state;
     }
+    public void setState(Documento state) {
+        this.state = state;
+    }
+
 }

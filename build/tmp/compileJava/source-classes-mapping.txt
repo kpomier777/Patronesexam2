@@ -1,10 +1,86 @@
-Memento.java
- Memento
-CareTaker.java
- CareTaker
-Documento.java
- Documento
-Cliente.java
- Cliente
-Originator.java
- Originator
+mediator/basic/ConcreateColleague1.java
+ mediator.basic.ConcreateColleague1
+observer/basic/ConcreteObserver1.java
+ observer.basic.ConcreteObserver1
+strategy/basic/ConcreteStrategy3.java
+ strategy.basic.ConcreteStrategy3
+mediator/basic/Client.java
+ mediator.basic.Client
+mediator/basic/IMediator.java
+ mediator.basic.IMediator
+state/basic/CPU.java
+ state.basic.CPU
+state/basic/Client.java
+ state.basic.Client
+command/basic/ConcreteCommand1.java
+ command.basic.ConcreteCommand1
+chainOfResponsability/basic/HandlerConcrete1.java
+ chainOfResponsability.basic.HandlerConcrete1
+mediator/basic/Colleague.java
+ mediator.basic.Colleague
+chainOfResponsability/basic/IHandler.java
+ chainOfResponsability.basic.IHandler
+strategy/basic/ConcreteStrategy2.java
+ strategy.basic.ConcreteStrategy2
+command/basic/Client.java
+ command.basic.Client
+command/basic/Receiver.java
+ command.basic.Receiver
+mediator/basic/ConcreteMediator.java
+ mediator.basic.ConcreteMediator
+state/basic/Apagado.java
+ state.basic.Apagado
+strategy/basic/IStrategy.java
+ strategy.basic.IStrategy
+observer/basic/ConcreteSubject.java
+ observer.basic.ConcreteSubject
+command/basic/Invoker.java
+ command.basic.Invoker
+strategy/basic/Client.java
+ strategy.basic.Client
+strategy/basic/Context.java
+ strategy.basic.Context
+command/basic/ConcreteCommand2.java
+ command.basic.ConcreteCommand2
+observer/basic/ISubject.java
+ observer.basic.ISubject
+observer/basic/IObserver.java
+ observer.basic.IObserver
+state/basic/Computadora.java
+ state.basic.Computadora
+state/basic/Reiniciar.java
+ state.basic.Reiniciar
+chainOfResponsability/basic/HandlerConcrete3.java
+ chainOfResponsability.basic.HandlerConcrete3
+state/basic/IStateComputadora.java
+ state.basic.IStateComputadora
+mediator/basic/ConcreateColleague2.java
+ mediator.basic.ConcreateColleague2
+state/basic/Prendido.java
+ state.basic.Prendido
+observer/basic/Client.java
+ observer.basic.Client
+state/basic/MemoriaRam.java
+ state.basic.MemoriaRam
+chainOfResponsability/basic/HandlerManager.java
+ chainOfResponsability.basic.HandlerManager
+command/basic/ICommand.java
+ command.basic.ICommand
+chainOfResponsability/basic/Client.java
+ chainOfResponsability.basic.Client
+strategy/basic/ConcreteStrategy1.java
+ strategy.basic.ConcreteStrategy1
+chainOfResponsability/basic/HandlerConcrete2.java
+ chainOfResponsability.basic.HandlerConcrete2
+observer/basic/ConcreteObserver2.java
+ observer.basic.ConcreteObserver2
+memento/basic/Memento.java
+ memento.basic.Memento
+memento/basic/Client.java
+ memento.basic.Client
+memento/basic/Documento.java
+ memento.basic.Documento
+memento/basic/CareTaker.java
+ memento.basic.CareTaker
+memento/basic/Originator.java
+ memento.basic.Originator

@@ -7,7 +7,7 @@ public class ConcreteStrategy1 implements IStrategyOrdenamiento {
 
     @Override
     public void cambiar(List<Usuarios> usuarioList) {
-        System.out.println("Usuario Name Sorting:");
+        System.out.println("Usuario Ci Sorting:");
         Collections.sort(usuarioList, Usuarios.CiORDER);
 
         for(Usuarios str: usuarioList){

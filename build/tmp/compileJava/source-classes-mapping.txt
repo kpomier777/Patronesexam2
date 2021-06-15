@@ -1,7 +1,7 @@
 mediator/basic/ConcreateColleague1.java
  mediator.basic.ConcreateColleague1
-strategy/basic/Client.java
- strategy.basic.Client
+observer/basic/IPage.java
+ observer.basic.IPage
 memento/basic/Memento.java
  memento.basic.Memento
 mediator/basic/Client.java
@@ -39,8 +39,8 @@ strategy/basic/Usuarios.java
  strategy.basic.Usuarios$3
 command/basic/Invoker.java
  command.basic.Invoker
-strategy/basic/ConcreteStrategy1.java
- strategy.basic.ConcreteStrategy1
+observer/basic/Persona.java
+ observer.basic.Persona
 memento/basic/Originator.java
  memento.basic.Originator
 command/basic/ConcreteCommand2.java
@@ -61,8 +61,8 @@ mediator/basic/ConcreateColleague2.java
  mediator.basic.ConcreateColleague2
 state/basic/Prendido.java
  state.basic.Prendido
-strategy/basic/ConcreteStrategy3.java
- strategy.basic.ConcreteStrategy3
+observer/basic/UsuarioNotificado.java
+ observer.basic.UsuarioNotificado
 state/basic/MemoriaRam.java
  state.basic.MemoriaRam
 chainOfResponsability/basic/HandlerManager.java
@@ -75,8 +75,8 @@ memento/basic/Documento.java
  memento.basic.Documento
 chainOfResponsability/basic/HandlerConcrete2.java
  chainOfResponsability.basic.HandlerConcrete2
-strategy/basic/ConcreteStrategy2.java
- strategy.basic.ConcreteStrategy2
+observer/basic/IUsuario.java
+ observer.basic.IUsuario
 observer/basic/Video.java
  observer.basic.Video
 observer/basic/Image.java
@@ -85,11 +85,11 @@ observer/basic/PaginaFacebook.java
  observer.basic.PaginaFacebook
 observer/basic/Client.java
  observer.basic.Client
-observer/basic/IPage.java
- observer.basic.IPage
-observer/basic/Persona.java
- observer.basic.Persona
-observer/basic/UsuarioNotificado.java
- observer.basic.UsuarioNotificado
-observer/basic/IUsuario.java
- observer.basic.IUsuario
+strategy/basic/ConcreteStrategy2.java
+ strategy.basic.ConcreteStrategy2
+strategy/basic/ConcreteStrategy3.java
+ strategy.basic.ConcreteStrategy3
+strategy/basic/ConcreteStrategy1.java
+ strategy.basic.ConcreteStrategy1
+strategy/basic/Client.java
+ strategy.basic.Client

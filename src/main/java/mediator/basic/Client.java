@@ -5,7 +5,7 @@ public class Client {
     public static void main (String[] args){
         ConcreteMediator mediator= new ConcreteMediator();
 
-        ConcreateColleague1 concreateColleague1 = new ConcreateColleague1(mediator);
+        Persona concreateColleague1 = new Persona(mediator);
         ConcreateColleague2 concreateColleague2 = new ConcreateColleague2(mediator);
 
         mediator.setUser1(concreateColleague1);

@@ -2,10 +2,10 @@ package mediator.basic;
 
 public class ConcreteMediator implements IMediator {
 
-    private ConcreateColleague1 user1;
+    private Estudiante user1;
     private ConcreateColleague2 user2;
 
-    public void setUser1(ConcreateColleague1 user1) {
+    public void setUser1(Estudiante user1) {
         this.user1 = user1;
     }
 

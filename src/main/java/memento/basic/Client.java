@@ -5,7 +5,7 @@ public class Client {
         // el careTaker es el que guarda lo mementos
         CareTaker careTaker= new CareTaker();
         // el originator es el creador de los mementos
-        Originator originator= new Originator();
+        Originator originator= new Originator(careTaker);
 
         Documento concreteObject;
 

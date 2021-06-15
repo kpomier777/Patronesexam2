@@ -4,7 +4,10 @@ public class Originator {
     private Documento state;
     private CareTaker careTaker;
 
-    public Originator(){}
+    public Originator(CareTaker careTaker) {
+        this.careTaker = careTaker;
+    }
+
 
     public void setState(Documento state) {
         System.out.println("**** Set State *****");
@@ -19,7 +22,7 @@ public class Originator {
     public Memento createMemento(){
         System.out.println("**** Create State *****");
         state.info();
-        return new Memento(this.state) ;
+        return new Memento(state) ;
     }
 
     public void restoreFromMemento(Memento memento){

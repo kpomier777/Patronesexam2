@@ -1,9 +1,12 @@
 package strategy.basic;
 
-public class ConcreteStrategy2 implements  IStrategy{
+import java.util.List;
+
+public class ConcreteStrategy2 implements IStrategyOrdenamiento {
+
+
     @Override
-    public void execute() {
-        // algoritmo
-        System.out.println("Strategy 2> Algoritmo 2");
+    public void cambiar(List<Usuarios> usuarioList) {
+        System.out.println("Usuario CI Sorting:");
     }
 }

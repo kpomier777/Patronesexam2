@@ -2,8 +2,8 @@ mediator/basic/ConcreateColleague1.java
  mediator.basic.ConcreateColleague1
 observer/basic/ConcreteObserver1.java
  observer.basic.ConcreteObserver1
-strategy/basic/ConcreteStrategy3.java
- strategy.basic.ConcreteStrategy3
+memento/basic/Memento.java
+ memento.basic.Memento
 mediator/basic/Client.java
  mediator.basic.Client
 mediator/basic/IMediator.java
@@ -20,8 +20,8 @@ mediator/basic/Colleague.java
  mediator.basic.Colleague
 chainOfResponsability/basic/IHandler.java
  chainOfResponsability.basic.IHandler
-strategy/basic/ConcreteStrategy2.java
- strategy.basic.ConcreteStrategy2
+memento/basic/Client.java
+ memento.basic.Client
 command/basic/Client.java
  command.basic.Client
 command/basic/Receiver.java
@@ -30,16 +30,16 @@ mediator/basic/ConcreteMediator.java
  mediator.basic.ConcreteMediator
 state/basic/Apagado.java
  state.basic.Apagado
-strategy/basic/IStrategy.java
- strategy.basic.IStrategy
+memento/basic/CareTaker.java
+ memento.basic.CareTaker
 observer/basic/ConcreteSubject.java
  observer.basic.ConcreteSubject
 command/basic/Invoker.java
  command.basic.Invoker
-strategy/basic/Client.java
- strategy.basic.Client
-strategy/basic/Context.java
- strategy.basic.Context
+observer/basic/ConcreteObserver2.java
+ observer.basic.ConcreteObserver2
+memento/basic/Originator.java
+ memento.basic.Originator
 command/basic/ConcreteCommand2.java
  command.basic.ConcreteCommand2
 observer/basic/ISubject.java
@@ -68,19 +68,21 @@ command/basic/ICommand.java
  command.basic.ICommand
 chainOfResponsability/basic/Client.java
  chainOfResponsability.basic.Client
-strategy/basic/ConcreteStrategy1.java
- strategy.basic.ConcreteStrategy1
-chainOfResponsability/basic/HandlerConcrete2.java
- chainOfResponsability.basic.HandlerConcrete2
-observer/basic/ConcreteObserver2.java
- observer.basic.ConcreteObserver2
-memento/basic/Memento.java
- memento.basic.Memento
-memento/basic/Client.java
- memento.basic.Client
 memento/basic/Documento.java
  memento.basic.Documento
-memento/basic/CareTaker.java
- memento.basic.CareTaker
-memento/basic/Originator.java
- memento.basic.Originator
+chainOfResponsability/basic/HandlerConcrete2.java
+ chainOfResponsability.basic.HandlerConcrete2
+strategy/basic/ConcreteStrategy2.java
+ strategy.basic.ConcreteStrategy2
+strategy/basic/ConcreteStrategy3.java
+ strategy.basic.ConcreteStrategy3
+strategy/basic/Usuarios.java
+ strategy.basic.Usuarios
+strategy/basic/BaseDeDatos.java
+ strategy.basic.BaseDeDatos
+strategy/basic/ConcreteStrategy1.java
+ strategy.basic.ConcreteStrategy1
+strategy/basic/Client.java
+ strategy.basic.Client
+strategy/basic/IStrategyOrdenamiento.java
+ strategy.basic.IStrategyOrdenamiento
